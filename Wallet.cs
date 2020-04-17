@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LemonadeStand_3DayStarter
-{
+{    
     class Wallet
     {
         private double money;
