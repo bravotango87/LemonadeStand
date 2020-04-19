@@ -11,14 +11,14 @@ namespace LemonadeStand_3DayStarter
     {
         // member variables (Has)
 
-        List<string> day;
+       
         string condition;
         double temparature;
 
         // constructor (Spawner)
 
-        public Weather()
-        // per day of the week
+        public void DayWeather()
+        // days of the week
         {
             int day = 0;
             switch (day)
@@ -66,6 +66,8 @@ namespace LemonadeStand_3DayStarter
 
 
         // member methods (What it does)
+        
+       
 
         // Display Weather
         

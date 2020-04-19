@@ -10,8 +10,8 @@ namespace LemonadeStand_3DayStarter
     {
         static void Main(string[] args)
         {
-            Game game = new Game();
-          
+            Day day = new Day();
+            day.DayWeather();
         }
     }
 }
