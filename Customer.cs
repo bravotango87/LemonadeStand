@@ -12,7 +12,7 @@ namespace LemonadeStand_3DayStarter
 
         List<string> names;
 
-       // constructor (Spawner)
+        // constructor (Spawner)
 
         public Customer()
         {
