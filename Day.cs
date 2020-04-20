@@ -22,9 +22,9 @@ namespace LemonadeStand_3DayStarter
 
      // member methods (Can do)
         
-        public override void currentDay()
+        public void DisplayDay()
         {
-            int day = 1;
+            int day = 0;
             switch (day)
             {
                 case 1:

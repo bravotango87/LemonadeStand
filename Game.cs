@@ -8,5 +8,20 @@ namespace LemonadeStand_3DayStarter
 {
     class Game
     {
+        // member variables (Has a)
+
+
+
+       // constructor (Spawner)
+
+
+
+      // member methods (Can do)
+
+      public void RunGame()
+        {
+            DisplayDay();
+            DisplayTemperature();
+        }
     }
 }
