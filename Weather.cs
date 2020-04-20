@@ -15,17 +15,18 @@ namespace LemonadeStand_3DayStarter
 
         int temperatureHigh;
         int temperatureLow;
-        List<string> conditions;
+        public int temperature;
+        public string condition;
+        private List<string> conditions;
         Random random;
 
         // constructor (Spawner)
 
         public Weather()
-
         {
             temperatureHigh = 95;
             temperatureLow = 45;
-
+            random = new Random();
             
             conditions = new List<string>();
 
@@ -33,17 +34,22 @@ namespace LemonadeStand_3DayStarter
             conditions.Add("Overcast But Warm !");
             conditions.Add("Chilly !");
             conditions.Add("Coldddd !");
-            conditions.Add("Rain Rain Rain !");
-
-
-           
+            conditions.Add("Rain Rain Rain !"); 
         }
 
 
 
         
          // member methods (Can do)
+        public void GenerateCondition()
+        {
+            //set condition variable to a random value the in the list of condtions
+        }
 
+        public void GenerateTemparture()
+        {
+            //set the temperature variable eqaul to a random number between 40 and 100
+        }
         public void DisplayWeather()
         {
 
