@@ -44,5 +44,8 @@ namespace LemonadeStand_3DayStarter
             DisplayDay();
             DisplayTemperature();
         }
+
+        public int CurrentDay()
+         
     }
 }
