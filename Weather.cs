@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,10 +12,11 @@ namespace LemonadeStand_3DayStarter
     {
         // member variables (Has)
 
-        
+
         int temperatureHigh;
         int temperatureLow;
-        List<string> weatherConditions;
+        List<string> conditions;
+        Random random;
 
         // constructor (Spawner)
 
@@ -24,54 +26,32 @@ namespace LemonadeStand_3DayStarter
             temperatureHigh = 95;
             temperatureLow = 45;
 
-            weatherConditions = new List<string>();
-
-            weatherConditions.Add("Bright and Sunny !");
-            weatherConditions.Add("Overcast But Warm !");
-            weatherConditions.Add("Chilly !");
-            weatherConditions.Add("Coldddd !");
-            weatherConditions.Add("Rain Rain Rain !");
-        }
-
-        
             
-                
+            conditions = new List<string>();
+
+            conditions.Add("Bright and Sunny !");
+            conditions.Add("Overcast But Warm !");
+            conditions.Add("Chilly !");
+            conditions.Add("Coldddd !");
+            conditions.Add("Rain Rain Rain !");
 
 
-
-
-        
-
-
-        public Weather(string condition, double temperature)
-        {
-            this.condition = condition;
-            this.temparature = temperature;
-
-
+           
         }
 
 
 
-        // member methods (Can do)
+        
+         // member methods (Can do)
 
         public void DisplayWeather()
         {
-            double Weather = 99.1d;
-            if (Weather < 70.5)
-            {
-                Console.WriteLine("Its Chilly Today !!!");
 
-            }
-            else
-            {
-                Console.WriteLine("Good Day For Some Lemonade !!!");
-            }
         }
         
        
 
-        // Display Weather
+        
         
 
         
