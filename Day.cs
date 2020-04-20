@@ -8,12 +8,13 @@ namespace LemonadeStand_3DayStarter
 {
     class Day
     {
-     // member variables (Has a)
+        // member variables (Has a)
+
+        List<Customer> customers;
 
 
 
-
-     // constructor (Spawner)
+        // constructor (Spawner)
 
         public Day()
         {
