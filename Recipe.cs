@@ -10,6 +10,11 @@ namespace LemonadeStand_3DayStarter
     {
         // member variables (Has a )
 
+        int amountOfLemons;
+        int amountOfSugarCubes;
+        int amountOfIceCubes;
+        double pricePerCup;
+
 
        // constructor (Spawner)
 
@@ -18,6 +23,6 @@ namespace LemonadeStand_3DayStarter
 
         }
 
-       // member methods (CAN DO)
+       // member methods (Can do)
     }
 }
