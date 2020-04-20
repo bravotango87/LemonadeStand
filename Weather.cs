@@ -11,19 +11,18 @@ namespace LemonadeStand_3DayStarter
     {
         // member variables (Has)
 
+        
+        int temperatureHigh;
+        int temperatureLow;
         List<string> weatherConditions;
-       
-
-
-        string condition;
-        double temparature;
 
         // constructor (Spawner)
 
         public Weather()
-       
-        {
 
+        {
+            temperatureHigh = 95;
+            temperatureLow = 45;
 
             weatherConditions = new List<string>();
 
@@ -32,13 +31,16 @@ namespace LemonadeStand_3DayStarter
             weatherConditions.Add("Chilly !");
             weatherConditions.Add("Coldddd !");
             weatherConditions.Add("Rain Rain Rain !");
-          
+        }
+
+        
+            
                 
 
 
 
 
-        }
+        
 
 
         public Weather(string condition, double temperature)
