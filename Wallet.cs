@@ -8,24 +8,33 @@ namespace LemonadeStand_3DayStarter
 {    
     class Wallet
     {
-        private double money = 20.00;
+        // member variables (Has a)
 
-        public double Money
+
+        private double amountOfMoney;
+        
+        public double AmountOfMoney
         {
             get
             {
-                return money;
+                return amountOfMoney;
             }
+           
         }
+
+       // constructor (Spawner)
+        
 
         public Wallet()
         {
-            money = 20.00;
+            amountOfMoney = 20.00;
         }
+
+       // member methods (Can do)
 
         public void PayMoneyForItems(double transactionAmount)
         {
-            money -= transactionAmount;
+            amountOfMoney -= transactionAmount;
         }
     }
 }
