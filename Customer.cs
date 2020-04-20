@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand_3DayStarter
 {
-    class Customer
+    class Customer : Player
     {
         // member variables (Has a )
 
@@ -28,6 +28,12 @@ namespace LemonadeStand_3DayStarter
 
         }
 
-       // member methods (CAN DO)
+        public override void SetName()
+        {
+            Console.WriteLine("Please Enter Your Name.");
+            Console.ReadLine();
+        }
+
+        // member methods (CAN DO)
     }
 }

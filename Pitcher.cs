@@ -15,7 +15,7 @@ namespace LemonadeStand_3DayStarter
        // constructor (Spawner)
         public Pitcher()
         {
-            cupsLeftInPitcher = 32;
+            cupsLeftInPitcher = 32;  
         }
 
       // member methods (Can do)

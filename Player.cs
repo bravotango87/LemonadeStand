@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand_3DayStarter
 {
-    class Player
+    abstract class Player
     {
         // member variables (HAS A)
 

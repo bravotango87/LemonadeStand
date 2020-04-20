@@ -20,8 +20,8 @@ namespace LemonadeStand_3DayStarter
 
         public Game()
         {
-            player1 = new Player();
 
+            player = new Customer();
             days = new List<string>();
 
 
@@ -40,13 +40,9 @@ namespace LemonadeStand_3DayStarter
 
         // member methods (Can do)
 
-        public void RunGame()
-        {
-            DisplayDay();
-            DisplayTemperature();
-        }
+        
 
-        public int CurrentDay()
+        
          
     }
 }
