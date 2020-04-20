@@ -11,14 +11,35 @@ namespace LemonadeStand_3DayStarter
         // member variables (Has a)
 
 
+        List<string> days;
 
-       // constructor (Spawner)
+        Player player1;
+
+        // constructor (Spawner)
+
+        public Game()
+        {
+            player1 = new Player();
+
+            days = new List<string>();
 
 
 
-      // member methods (Can do)
+            days.Add("Today is Monday !");
+            days.Add("Today is Tuesday !");
+            days.Add("Today is Wedneday !");
+            days.Add("Today is Thursday !");
+            days.Add("Today is Friday ! ");
+            days.Add("Today is Saturday !");
+            days.Add("Today is Sunday");
 
-      public void RunGame()
+        }
+
+
+
+        // member methods (Can do)
+
+        public void RunGame()
         {
             DisplayDay();
             DisplayTemperature();
