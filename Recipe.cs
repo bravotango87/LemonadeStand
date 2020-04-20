@@ -21,9 +21,9 @@ namespace LemonadeStand_3DayStarter
 
         public Recipe()
         {
-            amountOfLemons = 0;
-            amountOfSugarCubes = 0;
-            amountOfIceCubes = 0;
+            amountOfLemons = 2;
+            amountOfSugarCubes = 3;
+            amountOfIceCubes = 4;
             pricePerCup = 0.75;
 
             recipe = new List<string>();
