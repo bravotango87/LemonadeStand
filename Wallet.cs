@@ -8,7 +8,7 @@ namespace LemonadeStand_3DayStarter
 {    
     class Wallet
     {
-        private double money;
+        private double money = 20.00;
 
         public double Money
         {
