@@ -12,7 +12,7 @@ namespace LemonadeStand_3DayStarter
 
         List<string> names;
 
-      // constructor (Spawner)
+       // constructor (Spawner)
 
         public Customer()
         {
@@ -27,5 +27,7 @@ namespace LemonadeStand_3DayStarter
 
 
         }
+
+       // member methods (CAN DO)
     }
 }

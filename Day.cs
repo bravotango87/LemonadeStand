@@ -10,6 +10,7 @@ namespace LemonadeStand_3DayStarter
     {
         // member variables (Has a)
 
+        public Weather weather;
         List<Customer> customers;
 
 

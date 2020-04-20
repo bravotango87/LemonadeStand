@@ -12,7 +12,8 @@ namespace LemonadeStand_3DayStarter
         // member variables (Has)
 
         List<string> weatherConditions;
-        
+       
+
 
         string condition;
         double temparature;
@@ -50,7 +51,7 @@ namespace LemonadeStand_3DayStarter
 
 
 
-        // member methods (What it does)
+        // member methods (Can do)
 
         public void DisplayWeather()
         {

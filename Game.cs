@@ -12,8 +12,9 @@ namespace LemonadeStand_3DayStarter
 
 
         List<string> days;
-
-        Player player1;
+        int currentDay;
+        public Player player;
+        
 
         // constructor (Spawner)
 
