@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,28 +28,40 @@ namespace LemonadeStand_3DayStarter
             temperatureHigh = 95;
             temperatureLow = 45;
             random = new Random();
-            
+
             conditions = new List<string>();
 
             conditions.Add("Bright and Sunny !");
             conditions.Add("Overcast But Warm !");
             conditions.Add("Chilly !");
             conditions.Add("Coldddd !");
-            conditions.Add("Rain Rain Rain !"); 
+            conditions.Add("Rain Rain Rain !");
         }
 
 
 
-        
-         // member methods (Can do)
+
+        // member methods (Can do)
         public void GenerateCondition()
         {
-            //set condition variable to a random value the in the list of condtions
+            // set condition variable to a random value the in the list of condtions
+
+             set
+            {
+                conditions = value;
+
+
+            }
+
         }
 
         public void GenerateTemparture()
         {
-            //set the temperature variable eqaul to a random number between 40 and 100
+            // set the temperature variable eqaul to a random number between 40 and 100
+
+            set{
+
+            }
         }
         public void DisplayWeather()
         {
