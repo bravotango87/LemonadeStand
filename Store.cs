@@ -86,16 +86,16 @@ namespace LemonadeStandGame
             switch (userInput)
             {
                 case "lemons":
-                    Console.WriteLine("How many would lemons you like to purchase ?");
+                    SellLemons(player);
                     break;
                 case "sugar":
-                    Console.WriteLine("How many sugar cubes would you like to purchase ?");
+                    SellSugarCubes(player);
                     break;
                 case "ice cubes":
-                    Console.WriteLine("How many ice cubes would you like to purchase ?");
+                    SellIceCubes(player);
                     break;
                 case "cups":
-                    Console.WriteLine("How many cups would you like to purchase ?");
+                    SellCups(player);
                     break;
                 default:
                     Console.WriteLine("Invalid selection. Please try again.");
