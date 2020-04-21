@@ -31,5 +31,6 @@ namespace LemonadeStandGame
         public abstract void SetName();
 
         // member methods (CAN DO)
+
     }
 }

@@ -78,5 +78,10 @@ namespace LemonadeStandGame
         {
             wallet.PayMoneyForItems(transactionAmount);
         }
+
+        public void StoreMenu(Player player)
+        {
+
+        }
     }
 }
