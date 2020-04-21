@@ -79,9 +79,27 @@ namespace LemonadeStandGame
             wallet.PayMoneyForItems(transactionAmount);
         }
 
-        public void StoreMenu(Player player)
+        public void GetItems(Player player)
         {
+            Console.WriteLine("Please select an item to purchase.");
+            string userInput = Console.ReadLine();
+            switch (userInput)
+            {
+                case "lemons":
+                    Console.WriteLine("How many would lemons you like to purchase ?");
+                    break;
+                case "sugar":
+                    Console.WriteLine("How many sugar cubes would you like to purchase ?");
+                    break;
+                case "ice cubes":
+                    Console.WriteLine("How many ice cubes would you like to purchase ?");
+                    break;
+                case "cups":
+                    Console.WriteLine("How many cups would you like to purchase ?");
+                    break;
 
+
+            }
         }
     }
 }
