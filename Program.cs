@@ -12,9 +12,10 @@ namespace LemonadeStand_3DayStarter
         {
             Game game = new Game();
 
-            Wallet myWallet = new Wallet();
 
             Weather weather = new Weather();
+            weather.GenerateCondition();
+            Console.ReadLine();
 
 
         }

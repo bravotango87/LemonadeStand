@@ -14,21 +14,22 @@ namespace LemonadeStand_3DayStarter
     {
         // member variables (Has)
 
-
+        Random random;
         int temperatureHigh;
         int temperatureLow;
         public int temperature;
         public string condition;
         private List<string> conditions;
-        Random random;
+        
 
         // constructor (Spawner)
 
         public Weather()
         {
-            temperatureHigh = 95;
-            temperatureLow = 45;
-            random = new Random();
+            Random random = new Random();
+            temperatureHigh = 100;
+            temperatureLow = 40;
+            
 
             conditions = new List<string>();
 
@@ -47,8 +48,13 @@ namespace LemonadeStand_3DayStarter
         {
             // set condition variable to a random value the in the list of condtions
             //generate a random number between 0 and 4 and use that random number as the index number in the line below
-            int indexNum = 
-            condition = conditions[2];
+
+            int randomNumber= random.Next(conditions.Count);
+            condition = conditions[randomNumber];
+            
+
+
+            condition = conditions[4];
 
         }
 
@@ -56,7 +62,13 @@ namespace LemonadeStand_3DayStarter
         {
             // set the temperature variable eqaul to a random number between 40 and 100
 
-            
+            int temp = random.Next(40, 100);
+            Console.WriteLine(random.Next(40, 100));
+
+
+
+
+
         }
         public void DisplayWeather()
         {
