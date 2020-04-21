@@ -50,11 +50,11 @@ namespace LemonadeStandGame
             //generate a random number between 0 and 4 and use that random number as the index number in the line below
 
             int randomNumber= random.Next(conditions.Count);
-            condition = conditions[randomNumber];
+            condition = conditions[4];
             
 
 
-            condition = conditions[4];
+            
 
         }
 
@@ -62,7 +62,7 @@ namespace LemonadeStandGame
         {
             // set the temperature variable eqaul to a random number between 40 and 100
 
-            int temp = random.Next(40, 100);
+            int randonNumber = random.Next(40, 100);
             Console.WriteLine(random.Next(40, 100));
 
 
