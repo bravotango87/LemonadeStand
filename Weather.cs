@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace LemonadeStand_3DayStarter
+namespace LemonadeStandGame
 {
 
     public class Weather

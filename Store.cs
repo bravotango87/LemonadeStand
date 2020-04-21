@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LemonadeStand_3DayStarter
+namespace LemonadeStandGame
 {
     class Store
     {
@@ -18,8 +18,8 @@ namespace LemonadeStand_3DayStarter
         public Store()
         {
             pricePerLemon = .5;
-            pricePerSugarCube = .1;
-            pricePerIceCube = .01;
+            pricePerSugarCube = .01;
+            pricePerIceCube = .05;
             pricePerCup = .25;
         }
 
