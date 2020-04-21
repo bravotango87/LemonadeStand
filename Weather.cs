@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace LemonadeStand_3DayStarter
 {
@@ -45,13 +46,9 @@ namespace LemonadeStand_3DayStarter
         public void GenerateCondition()
         {
             // set condition variable to a random value the in the list of condtions
-
-             set
-            {
-                conditions = value;
-
-
-            }
+            //generate a random number between 0 and 4 and use that random number as the index number in the line below
+            int indexNum = 
+            condition = conditions[2];
 
         }
 
@@ -59,9 +56,7 @@ namespace LemonadeStand_3DayStarter
         {
             // set the temperature variable eqaul to a random number between 40 and 100
 
-            set{
-
-            }
+            
         }
         public void DisplayWeather()
         {

@@ -28,7 +28,7 @@ namespace LemonadeStand_3DayStarter
         {
             int lemonsToPurchase = UserInterface.GetNumberOfItems("lemons");
             double transactionAmount = CalculateTransactionAmount(lemonsToPurchase, pricePerLemon);
-            if(player.wallet.Money >= transactionAmount)
+            if(player.wallet.AmountOfMoney >= transactionAmount)
             {
                 player.wallet.PayMoneyForItems(transactionAmount);
                 player.inventory.AddLemonsToInventory(lemonsToPurchase);
@@ -39,7 +39,7 @@ namespace LemonadeStand_3DayStarter
         {
             int sugarToPurchase = UserInterface.GetNumberOfItems("sugar");
             double transactionAmount = CalculateTransactionAmount(sugarToPurchase, pricePerSugarCube);
-            if(player.wallet.Money >= transactionAmount)
+            if(player.wallet.AmountOfMoney >= transactionAmount)
             {
                 PerformTransaction(player.wallet, transactionAmount);
                 player.inventory.AddSugarCubesToInventory(sugarToPurchase);
@@ -50,7 +50,7 @@ namespace LemonadeStand_3DayStarter
         {
             int iceCubesToPurchase = UserInterface.GetNumberOfItems("ice cubes");
             double transactionAmount = CalculateTransactionAmount(iceCubesToPurchase, pricePerIceCube);
-            if(player.wallet.Money >= transactionAmount)
+            if(player.wallet.AmountOfMoney >= transactionAmount)
             {
                 PerformTransaction(player.wallet, transactionAmount);
                 player.inventory.AddIceCubesToInventory(iceCubesToPurchase);
@@ -61,7 +61,7 @@ namespace LemonadeStand_3DayStarter
         {
             int cupsToPurchase = UserInterface.GetNumberOfItems("cups");
             double transactionAmount = CalculateTransactionAmount(cupsToPurchase, pricePerCup);
-            if(player.wallet.Money >= transactionAmount)
+            if(player.wallet.AmountOfMoney >= transactionAmount)
             {
                 PerformTransaction(player.wallet, transactionAmount);
                 player.inventory.AddCupsToInventory(cupsToPurchase);

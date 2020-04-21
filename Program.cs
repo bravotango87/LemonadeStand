@@ -14,9 +14,9 @@ namespace LemonadeStand_3DayStarter
 
             Wallet myWallet = new Wallet();
 
+            Weather weather = new Weather();
 
-          
-            
+
         }
     }
 }
