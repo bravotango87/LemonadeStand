@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LemonadeStandGame
 {
-    class Customer : Player
+    class Customer
     {
         // member variables (Has a )
 
@@ -24,6 +24,12 @@ namespace LemonadeStandGame
             names.Add("Customer 4");
             names.Add("Customer 5");
             names.Add("Customer 6");
+
+         // if else statement so weather conditions & temp affect customers demand
+
+
+
+        //  if else statement on price of product (ex. price too high sales will decrease, price too low sales will increase)
 
 
         }
