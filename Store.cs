@@ -97,6 +97,10 @@ namespace LemonadeStandGame
                 case "cups":
                     Console.WriteLine("How many cups would you like to purchase ?");
                     break;
+                default:
+                    Console.WriteLine("Invalid selection. Please try again.");
+                    GetItems(player);
+                    break;
 
 
             }
