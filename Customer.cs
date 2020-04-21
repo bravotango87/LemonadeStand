@@ -24,21 +24,24 @@ namespace LemonadeStandGame
             names.Add("Customer 4");
             names.Add("Customer 5");
             names.Add("Customer 6");
+        }
 
          // if else statement so weather conditions & temp affect customers demand
+
+        public void BuyLemonade(Weather weather)
+        {
+            if
+        }
 
 
 
         //  if else statement on price of product (ex. price too high sales will decrease, price too low sales will increase)
 
 
-        }
+        
 
-        public override void SetName()
-        {
-            Console.WriteLine("Please Enter Your Name.");
-            Console.ReadLine();
-        }
+        
+        
 
         // member methods (CAN DO)
     }
