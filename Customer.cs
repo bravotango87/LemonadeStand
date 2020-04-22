@@ -17,7 +17,9 @@ namespace LemonadeStandGame
         double demandProb;
         double temperatureProb;
         double conditionProb;
+        double cupPrice;
         public bool willBuy;
+
         
 
 
@@ -81,20 +83,24 @@ namespace LemonadeStandGame
 
         public void WillBuyCup()
         {
-            int temp;
+            double cupPrice;
             bool willBuy = true;
             {
-                if(willBuy == true)
+                if (willBuy == true)
                 {
-                    temp = 70;
+                    cupPrice = .75;
                 }
-                else if(willBuy == true)
+                else if (willBuy == true)
                 {
-                    temp = 80;
+                    cupPrice = .95;
+                }
+                else if (willBuy == true)
+                {
+                    cupPrice = 1.00;
                 }
                 else if (willBuy == false)
                 {
-                    temp = 40;
+                    cupPrice = 1.50;
                 }
 
             }
