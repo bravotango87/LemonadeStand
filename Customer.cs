@@ -19,6 +19,7 @@ namespace LemonadeStandGame
         double conditionProb;
         double cupPrice;
         public bool willBuy;
+        public int shoppers;
 
         
 
@@ -30,6 +31,9 @@ namespace LemonadeStandGame
         public Customer()
         {
             customers = new List<Customer>();
+            shoppers = 50;
+           
+
 
             
         }
@@ -101,15 +105,23 @@ namespace LemonadeStandGame
             }
         }
 
-        
-        
 
-        
-        
+
+
+
+
 
         // member methods (CAN DO)
 
         // generate customers (50)
+
+        public void GenerateCustomers()
+        {
+            for (int i = 0; i < shoppers; i++)
+            {
+                customers.Add(new Customer());
+            }
+        }
 
 
     }
