@@ -59,5 +59,10 @@ namespace LemonadeStandGame
                 cups.Add(cup);
             }
         }
+
+        public void CheckInventory(Player player)
+        {
+
+        }
     }
 }
