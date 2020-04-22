@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LemonadeStandGame
 {
-    abstract class Player
+    class Player
     {
         // member variables (HAS A)
 
@@ -19,7 +19,7 @@ namespace LemonadeStandGame
         public Pitcher pitcher;
 
         // constructor (SPAWNER)
-        public Player(string name)
+        public Player()
         {
             inventory = new Inventory();
             wallet = new Wallet();
@@ -28,7 +28,12 @@ namespace LemonadeStandGame
             SetName();
         }
 
-        public abstract void SetName();
+
+        public void SetName()
+        {
+            Console.WriteLine("Please enter in your name.");
+            name = Console.ReadLine();
+        }
 
         // member methods (CAN DO)
 

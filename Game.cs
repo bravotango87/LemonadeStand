@@ -12,12 +12,12 @@ namespace LemonadeStandGame
         // member variables (Has a)
         
          
-        List<string> days;
+        List<Day> days;
         public Random random;
         public Weather weather;
         public Player player;
         public Store store;
-        public Day day;
+        //public Day day;
         public int randomValue;
 
 
@@ -31,28 +31,26 @@ namespace LemonadeStandGame
             weather = new Weather();
             player = new Player();
             store = new Store();
-            day = new Day(random);
+            days = new List<Day>();
+            //day = new Day(random);
         }
+
+
         public void RunGame()
         {
-           
+
 
         }
 
 
-
-
-          
-
-        }
-
-
+        //Create a method that is called GenerateDays
+        //using a for loop add seven day objects to the days list
 
         // member methods (Can do)
 
         public void TodayWeather()
         {
-            day.weather.GetWeather();
+            //day.weather.GetWeather();
         }
         
         public void MainMenu()

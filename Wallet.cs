@@ -12,8 +12,8 @@ namespace LemonadeStandGame
 
 
         private double amountOfMoney;
-        bool broke;
-        double costOfDrink;
+        
+
 
 
 
