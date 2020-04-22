@@ -18,7 +18,7 @@ namespace LemonadeStandGame
         double temperatureProb;
         double conditionProb;
         public bool willBuy;
-        double percent;
+        
 
 
 
@@ -43,35 +43,35 @@ namespace LemonadeStandGame
         {
             if (weather.temperature <= 60)
             {
-                temperatureProb = percent = 35;
+                temperatureProb = 35;
             }
             else if (weather.temperature >= 75)
             {
-                temperatureProb = percent = 80;
+                temperatureProb = 80;
             }
         }
 
         public void BuyLemonadeCondition(Weather weather)
         {
-            if (weather.condition == "Bright and Sunny")
+            if (weather.condition == "Sunny")
             {
-                conditionProb = percent = 90;
+                conditionProb = 90;
             }
             else if (weather.condition == "Overcast But Warm")
             {
-                conditionProb = percent = 70;
+                conditionProb = 70;
             }
             else if (weather.condition == "Chilly")
             {
-                conditionProb = percent = 50;
+                conditionProb = 50;
             }
             else if (weather.condition == "Coldddd")
             {
-                conditionProb = percent = 20;
+                conditionProb = 20;
             }
             else if (weather.condition == "Rain Rain Rain")
             {
-                conditionProb = percent = 0;
+                conditionProb = 0;
             }
         }
 
@@ -79,7 +79,17 @@ namespace LemonadeStandGame
 
         //  if else statement on price of product (ex. price too high sales will decrease, price too low sales will increase)
 
+        bool WillBuy()
+        {
 
+            int temp = 100;
+            
+            
+
+           
+
+
+        }
         
 
         

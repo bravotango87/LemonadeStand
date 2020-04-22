@@ -33,7 +33,7 @@ namespace LemonadeStandGame
 
             conditions = new List<string>();
 
-            conditions.Add("Bright and Sunny");
+            conditions.Add("Sunny");
             conditions.Add("Overcast But Warm");
             conditions.Add("Chilly");
             conditions.Add("Coldddd");
