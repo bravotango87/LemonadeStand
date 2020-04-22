@@ -17,7 +17,7 @@ namespace LemonadeStandGame
         public Weather weather;
         public Player player;
         public Store store;
-        //public Day day;
+        public int daysToPlay;
         public int randomValue;
 
 
@@ -32,7 +32,7 @@ namespace LemonadeStandGame
             player = new Player();
             store = new Store();
             days = new List<Day>();
-            //day = new Day(random);
+            daysToPlay = 7;
         }
 
 
@@ -50,9 +50,9 @@ namespace LemonadeStandGame
 
         public void GenerateDays()
         {
-            for(int i = 0; i < 8; i++)
+            for(int i= 0; i < daysToPlay; i++)
             {
-                Console.WriteLine(i);
+
             }
         }
 

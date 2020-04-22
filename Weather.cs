@@ -49,8 +49,8 @@ namespace LemonadeStandGame
             // set condition variable to a random value the in the list of condtions
             //generate a random number between 0 and 4 and use that random number as the index number in the line below
 
-            int randomNumber= random.Next(conditions.Count);
-            condition = conditions[4];
+            //int randomNumber= random.Next(conditions.Count);
+            //condition = conditions[4];
             
 
 

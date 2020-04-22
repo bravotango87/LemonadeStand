@@ -17,7 +17,7 @@ namespace LemonadeStandGame
             weather.GenerateCondition();
             Console.ReadLine();
             Game games = new Game();
-            games.GenerateDays("day");
+            game.GenerateDays();
 
 
         }
