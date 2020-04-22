@@ -47,7 +47,31 @@ namespace LemonadeStandGame
             }
             else if (weather.temperature >= 75)
             {
-                temperatureProb = percent = 80)
+                temperatureProb = percent = 80;
+            }
+        }
+
+        public void BuyLemonadeCondition(Weather weather)
+        {
+            if (weather.condition == "Bright and Sunny")
+            {
+                conditionProb = percent = 90;
+            }
+            else if (weather.condition == "Overcast But Warm")
+            {
+                conditionProb = percent = 70;
+            }
+            else if (weather.condition == "Chilly")
+            {
+                conditionProb = percent = 50;
+            }
+            else if (weather.condition == "Coldddd")
+            {
+                conditionProb = percent = 20;
+            }
+            else if (weather.condition == "Rain Rain Rain")
+            {
+                conditionProb = percent = 0;
             }
         }
 
