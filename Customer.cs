@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,7 @@ namespace LemonadeStandGame
         double temperatureProb;
         double conditionProb;
         public bool willBuy;
+        double percent;
 
 
 
@@ -37,9 +39,16 @@ namespace LemonadeStandGame
 
          // if else statement so weather conditions & temp affect customers demand
 
-        public void BuyLemonade(Weather weather)
+        public void BuyLemonadeTemp(Weather weather)
         {
-            if
+            if (weather.temperature <= 60)
+            {
+                temperatureProb = percent = 35;
+            }
+            else if (weather.temperature >= 75)
+            {
+                temperatureProb = percent = 80)
+            }
         }
 
 
