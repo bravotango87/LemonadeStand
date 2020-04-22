@@ -11,6 +11,15 @@ namespace LemonadeStandGame
         // member variables (Has a )
 
         List<string> names;
+        public int temp;
+        public int cupsToBuy;
+        double demandProb;
+        double temperatureProb;
+        double conditionProb;
+        public bool willBuy;
+
+
+
 
         // constructor (Spawner)
 
