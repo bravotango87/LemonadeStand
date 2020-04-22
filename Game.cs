@@ -48,6 +48,14 @@ namespace LemonadeStandGame
 
         // member methods (Can do)
 
+        public void GenerateDays()
+        {
+            for(int i = 0; i < 8; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
         public void TodayWeather()
         {
             //day.weather.GetWeather();
