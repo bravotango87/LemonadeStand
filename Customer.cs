@@ -79,17 +79,28 @@ namespace LemonadeStandGame
 
         //  if else statement on price of product (ex. price too high sales will decrease, price too low sales will increase)
 
-        bool WillBuy()
+        public void WillBuyCup()
         {
+            int temp;
+            bool willBuy = true;
+            {
+                if(willBuy == true)
+                {
+                    temp = 70;
+                }
+                else if(willBuy == true)
+                {
+                    temp = 80;
+                }
+                else if (willBuy == false)
+                {
+                    temp = 40;
+                }
 
-            int temp = 100;
-            
-            
-
-           
-
-
+            }
         }
+
+        
         
 
         
