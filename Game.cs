@@ -28,7 +28,7 @@ namespace LemonadeStandGame
         {
 
             random = new Random();
-            weather = new Weather(random);
+            weather = new Weather();
             player = new Player();
             store = new Store();
             day = new Day(random);
@@ -71,8 +71,33 @@ namespace LemonadeStandGame
 
         switch (userInput)
         {
-            
+            case "1":
+                Console.Clear();
+                Console.WriteLine("Todays weather is "); // current day's weather (random number)
+                break;
+            case "2":
+                Console.Clear();
+                Console.WriteLine("You currently have "); // amount of lemons,sugar,ice cubes,cups
+                break;
+            case "3":
+                Console.Clear();
+                Console.WriteLine("You have "); // amount of money in wallet
+                break;
+            case "4":
+                Console.Clear();
+                Console.WriteLine("Enter amount of lemons, sugar, icecubes and cuops you would like to use"); // enter item amount
+                break;
+            case "5":
+                Console.Clear();
+                Console.WriteLine("Your lemonade contains "); // receipe 
+                break;
+            case "6":
+                Console.WriteLine("Time to sell some lemonade !");
+                break;
+
+
         }
+        
         
 
     }
