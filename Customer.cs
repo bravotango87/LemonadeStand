@@ -11,7 +11,7 @@ namespace LemonadeStandGame
     {
         // member variables (Has a )
 
-        List<string> names;
+        List<Customer> customers;
         public int temp;
         public int cupsToBuy;
         double demandProb;
@@ -29,14 +29,9 @@ namespace LemonadeStandGame
 
         public Customer()
         {
-            names = new List<string>();
+            customers = new List<Customer>();
 
-            names.Add("Customer 1");
-            names.Add("Customer 2");
-            names.Add("Customer 3");
-            names.Add("Customer 4");
-            names.Add("Customer 5");
-            names.Add("Customer 6");
+            
         }
 
          // if else statement so weather conditions & temp affect customers demand
@@ -113,5 +108,9 @@ namespace LemonadeStandGame
         
 
         // member methods (CAN DO)
+
+        // generate customers (50)
+
+
     }
 }

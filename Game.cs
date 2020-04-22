@@ -52,7 +52,8 @@ namespace LemonadeStandGame
         {
             for(int i= 0; i < daysToPlay; i++)
             {
-
+                days.Add(new Day());
+                
             }
         }
 
