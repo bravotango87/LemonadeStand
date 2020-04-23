@@ -15,9 +15,8 @@ namespace LemonadeStandGame
         // member variables (Has)
 
         public Random random;
-        int temperatureHigh;
-        int temperatureLow;
-        
+        public int[] WeatherTemp = new int [] { 50, 60, 70, 90, 100 };
+        public string[] WeatherConditions = new string[] { "hot", "sunny", " overcast", "", "rainy", "foggy" };
         public string condition;
         private List<string> conditions;
         
@@ -27,17 +26,8 @@ namespace LemonadeStandGame
         public Weather()
         {
             Random random = new Random();
-            temperatureHigh = 100;
-            temperatureLow = 40;
             
-
-            conditions = new List<string>();
-
-            conditions.Add("Sunny");
-            conditions.Add("Overcast But Warm");
-            conditions.Add("Chilly");
-            conditions.Add("Coldddd");
-            conditions.Add("Rain Rain Rain");
+           
         }
 
 

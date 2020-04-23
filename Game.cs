@@ -51,6 +51,8 @@ namespace LemonadeStandGame
             DisplayForecast();
             MainMenu();
             GameOver(player);
+           
+            
 
 
 
@@ -78,9 +80,10 @@ namespace LemonadeStandGame
             //DisplayForecast,loop over every day and print out days weather temp and condition to the console.
         public void DisplayForecast()
         {
-            
+            for(int i=0; i < daysToPlay;)
             {
-                
+                day.weather.DisplayWeather();
+                Console.WriteLine("Today's forecast is");
             }
            
             
