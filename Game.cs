@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Runtime.Remoting.Services;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -42,12 +43,16 @@ namespace LemonadeStandGame
 
         public void RunGame()
         {
+            Random random = new Random();
             Console.WriteLine("This game is for 7 days, so plan accordingly !");
             Console.Clear();
+            player = new Player();
             Console.WriteLine("Good Morning !");
             DisplayForecast();
             MainMenu();
-            
+            GameOver(player);
+
+
 
         }
 
@@ -88,8 +93,11 @@ namespace LemonadeStandGame
 
 
 
-        
-        
+
+        public void GameOver(Player player)
+        {
+            Console.WriteLine("The game is over ! Here is a summary of how you did:");
+        }
         public void MainMenu()
     {
         Console.WriteLine("Welcome to the Lemonade Stand");
@@ -129,8 +137,10 @@ namespace LemonadeStandGame
 
 
         }
-        
-        
+
+
+       
+
 
     }
 

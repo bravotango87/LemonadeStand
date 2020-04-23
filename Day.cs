@@ -11,7 +11,9 @@ namespace LemonadeStandGame
         // member variables (Has a)
 
         public Weather weather;
+        public Customer customer;
         List<Customer> customers;
+        public Random random;
 
 
 
@@ -19,7 +21,9 @@ namespace LemonadeStandGame
 
         public Day()
         {
-            
+            Random random = new Random();
+            weather = new Weather();
+            customer = new Customer();
         }
 
      // member methods (Can do)
