@@ -17,7 +17,7 @@ namespace LemonadeStandGame
         public int temperature;
         public Random random;
         public int[] WeatherTemp = new int [] { 50, 60, 70, 90, 100 };
-        public string[] WeatherConditions = new string[] { "hot", "sunny", " overcast", "", "rainy", "foggy" };
+        public string[] WeatherConditions = new string[] { "hot", "sunny", " overcast", "", "coldddd", " rain rain rain" };
         public string conditions;
         
         
@@ -58,20 +58,13 @@ namespace LemonadeStandGame
             int GenerateTemparture = random.Next(50, WeatherTemp.Length);
             temperature = WeatherTemp[GenerateTemparture];
         }
-
-       
-            
-
-
-
-
+        public void DisplayWeather()
+        {
+            Console.WriteLine("Today's weather is");
+        }
 
 
         
-        public void DisplayWeather()
-        {
-
-        }
         
        
 

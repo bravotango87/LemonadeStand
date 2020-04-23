@@ -54,23 +54,23 @@ namespace LemonadeStandGame
 
         public void BuyLemonadeCondition(Weather weather)
         {
-            if (weather.condition == "Sunny")
+            if (weather.conditions == "hot")
             {
                 conditionProb = 90;
             }
-            else if (weather.condition == "Overcast But Warm")
+            else if (weather.conditions == "sunny")
             {
                 conditionProb = 70;
             }
-            else if (weather.condition == "Chilly")
+            else if (weather.conditions == "overcast")
             {
                 conditionProb = 50;
             }
-            else if (weather.condition == "Coldddd")
+            else if (weather.conditions == "coldddd")
             {
                 conditionProb = 20;
             }
-            else if (weather.condition == "Rain Rain Rain")
+            else if (weather.conditions == "Rain Rain Rain")
             {
                 conditionProb = 0;
             }
