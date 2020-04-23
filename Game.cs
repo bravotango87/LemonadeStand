@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Runtime.Remoting.Services;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +19,8 @@ namespace LemonadeStandGame
         public Player player;
         public Store store;
         public int daysToPlay;
-        public int randomValue;
+        
+        public Day day;
 
 
 
@@ -33,12 +35,15 @@ namespace LemonadeStandGame
             store = new Store();
             days = new List<Day>();
             daysToPlay = 7;
+            day = new Day();
+            
         }
 
 
         public void RunGame()
         {
-
+            MainMenu();
+            DisplayForecast();
 
         }
 
@@ -57,10 +62,29 @@ namespace LemonadeStandGame
             }
         }
 
-        public void TodayWeather()
-        {
+       
+
             //day.weather.GetWeather();
+            //Forecast method
+            //DisplayForecast,loop over every day and print out days weather temp and condition to the console.
+        public void DisplayForecast()
+        {
+            
+            {
+                
+            }
+           
+            
+                
+    
+          
+            
+
         }
+
+
+
+        
         
         public void MainMenu()
     {

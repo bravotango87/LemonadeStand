@@ -14,10 +14,10 @@ namespace LemonadeStandGame
     {
         // member variables (Has)
 
-        Random random;
+        public Random random;
         int temperatureHigh;
         int temperatureLow;
-        public int temperature;
+        
         public string condition;
         private List<string> conditions;
         
