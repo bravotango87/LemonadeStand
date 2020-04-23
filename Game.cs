@@ -47,9 +47,13 @@ namespace LemonadeStandGame
             Console.WriteLine("This game is for 7 days, so plan accordingly !");
             Console.Clear();
             player = new Player();
+            Console.Clear();
             Console.WriteLine("Good Morning !");
+            Console.Clear();
             DisplayForecast();
+            Console.Clear();
             MainMenu();
+            Console.Clear();
             GameOver(player);
            
             
@@ -80,7 +84,7 @@ namespace LemonadeStandGame
             //DisplayForecast,loop over every day and print out days weather temp and condition to the console.
         public void DisplayForecast()
         {
-            for(int i=0; i < daysToPlay;)
+            for(int i=0; i < daysToPlay; i++)
             {
                 day.weather.DisplayWeather();
                 Console.WriteLine("Today's forecast is");

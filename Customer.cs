@@ -32,6 +32,7 @@ namespace LemonadeStandGame
         {
             customers = new List<Customer>();
             shoppers = 50;
+            cupPrice = .05;
            
 
 
@@ -82,24 +83,19 @@ namespace LemonadeStandGame
 
         public void WillBuyCup()
         {
-            double cupPrice;
             bool willBuy = true;
             {
                 if (willBuy == true)
                 {
-                    cupPrice = .75;
                 }
                 else if (willBuy == true)
                 {
-                    cupPrice = .95;
                 }
                 else if (willBuy == true)
                 {
-                    cupPrice = 1.00;
                 }
                 else if (willBuy == false)
                 {
-                    cupPrice = 1.50;
                 }
 
             }
