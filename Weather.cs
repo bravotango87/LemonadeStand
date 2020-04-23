@@ -14,11 +14,13 @@ namespace LemonadeStandGame
     {
         // member variables (Has)
 
+        public int temperature;
         public Random random;
         public int[] WeatherTemp = new int [] { 50, 60, 70, 90, 100 };
         public string[] WeatherConditions = new string[] { "hot", "sunny", " overcast", "", "rainy", "foggy" };
-        public string condition;
-        private List<string> conditions;
+        public string conditions;
+        
+        
         
 
         // constructor (Spawner)
@@ -39,8 +41,9 @@ namespace LemonadeStandGame
             // set condition variable to a random value the in the list of condtions
             //generate a random number between 0 and 4 and use that random number as the index number in the line below
 
-            //int randomNumber= random.Next(conditions.Count);
-            //condition = conditions[4];
+            int WeatherCondition = random.Next(0, WeatherConditions.Length);
+            conditions = WeatherConditions[WeatherCondition];
+            
             
 
 
@@ -50,16 +53,21 @@ namespace LemonadeStandGame
 
         public void GenerateTemparture()
         {
-            // set the temperature variable eqaul to a random number between 40 and 100
+            // set the temperature variable eqaul to a random number between 50 and 100
 
-            int randonNumber = random.Next(40, 100);
-            Console.WriteLine(random.Next(40, 100));
-
-
-
-
-
+            int GenerateTemparture = random.Next(50, WeatherTemp.Length);
+            temperature = WeatherTemp[GenerateTemparture];
         }
+
+       
+            
+
+
+
+
+
+
+        
         public void DisplayWeather()
         {
 
