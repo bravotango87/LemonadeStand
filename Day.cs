@@ -9,11 +9,14 @@ namespace LemonadeStandGame
     class Day
     {
         // member variables (Has a)
+       // keep day class simple. only use weather and customer  variables. 
 
         public Weather weather;
         public Customer customer;
         List<Customer> customers;
         public Random random;
+            
+           
 
 
 
@@ -26,8 +29,18 @@ namespace LemonadeStandGame
             customer = new Customer();
         }
 
-     // member methods (Can do)
-        
+        public Day(List<Customer> customers)
+        {
+            this.customers = customers;
+        }
+
+        public Day(Random random)
+        {
+            this.random = random;
+        }
+
+        // member methods (Can do)
+
         public void DisplayDay()
         {
             

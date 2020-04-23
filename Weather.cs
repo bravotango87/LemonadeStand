@@ -13,6 +13,7 @@ namespace LemonadeStandGame
     public class Weather
     {
         // member variables (Has)
+       //  keep simple. create weather temperature and weather conditions only in this class. 
 
         public int temperature;
         public Random random;
