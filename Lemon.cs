@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LemonadeStandGame
 {
-    class Lemon : Item
+    class Lemon : Item // a member variable and methods come from Item class bc lemon is child of Item (parent.)
     {
         // member variables (HAS A)
 

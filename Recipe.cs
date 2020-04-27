@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LemonadeStandGame
 {
-    class Recipe
+    class Recipe      // only make recipe in this class (single responsibilty principal)
     {
         // member variables (Has a )
 

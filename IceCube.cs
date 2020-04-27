@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LemonadeStandGame
 {
-    class IceCube : Item
+    class IceCube : Item   // because IceCube is derived class of Item classs, it'll inheriet its members from base class (Item)
     {
         // member variables (HAS A)
 
@@ -17,5 +17,5 @@ namespace LemonadeStandGame
         }
 
         // member methods (CAN DO)
-    }
+    }  
 }
